@@ -204,7 +204,11 @@ const S = {
   view: 'home',
   keys: {},
   ui: { allBatches: false, wl: { q: '', pool: 'sel', lv: 0, status: '' } },
-  settings: Object.assign({ furigana: true, romaji: true, autoplay: true, rate: 0.9, produce: 'all', voices: {} }, store.get(KEYS.settings, {})),
+  settings: (() => {
+    const st = Object.assign({ furigana: true, romaji: true, autoplay: true, rate: 0.9, produce: 'all', voices: {} }, store.get(KEYS.settings, {}));
+    st.kinds = Object.assign({ meaning: true, reverse: true, cloze: true, listen: true, type: true, match: true }, st.kinds);
+    return st;
+  })(),
   progress: store.get(KEYS.progress, {}),
   custom: store.get(KEYS.custom, []),
   prefs: store.get(KEYS.prefs, {}),
@@ -452,6 +456,20 @@ function renderHome(keep = false) {
         type: 'button', class: `seg-btn lv${l}${S.levels.has(l) ? ' on' : ''}`, 'aria-pressed': String(S.levels.has(l)),
         onclick: () => { if (S.levels.has(l)) { if (S.levels.size > 1) S.levels.delete(l); } else S.levels.add(l); changed(); },
       }, LEVELS[l], h('span', { class: 'count' }, lvCounts[l])))), 'Toggle any combination.'),
+      control('Challenges', h('div', { class: 'seg' },
+        KINDS.map(([k, label]) => h('button', {
+          type: 'button', class: `seg-btn${kindOn(k) ? ' on' : ''}`, 'aria-pressed': String(kindOn(k)),
+          onclick: () => {
+            const on = KINDS.filter(([x]) => kindOn(x)).length;
+            if (kindOn(k) && on <= 1) return toast('Keep at least one challenge type on.');
+            S.settings.kinds[k] = !kindOn(k); store.set(KEYS.settings, S.settings); renderHome(true);
+          },
+        }, label)),
+        h('button', {
+          type: 'button', class: `seg-btn${S.settings.produce !== 'off' ? ' on' : ''}`, 'aria-pressed': String(S.settings.produce !== 'off'),
+          onclick: () => { S.settings.produce = S.settings.produce === 'off' ? 'all' : 'off'; store.set(KEYS.settings, S.settings); renderHome(true); },
+        }, 'Writing')),
+        'Which question types appear in batches, reviews and the quick quiz. New-word intros always show.'),
       control('Words per batch', seg([3, 4, 5], S.size, v => { S.size = v; changed(); })),
       control('Order', seg([['shuffle', 'Shuffled'], ['ramp', 'Easy → Hard']], S.ramp ? 'ramp' : 'shuffle', v => { S.ramp = v === 'ramp'; changed(); })),
       control('Seed', h('div', { class: 'seed-row' }, seedInput,
@@ -525,7 +543,11 @@ function copyShare() {
 }
 
 // ───────────────────────── lesson engine ─────────────────────────
+// Challenge types the learner can switch on/off for batches, reviews and the quick quiz.
+const KINDS = [['meaning', 'Meaning'], ['reverse', 'Word pick'], ['cloze', 'Fill blank'], ['listen', 'Listening'], ['type', 'Typing'], ['match', 'Match']];
+const kindOn = k => S.settings.kinds[k] !== false;
 function can(kind, w) {
+  if (!kindOn(kind)) return false;
   if (kind === 'listen') return TTS.available(ttsLang(w));
   if (kind === 'cloze') return !!Text.target(w.sentence);
   return true;
@@ -553,23 +575,23 @@ function buildSteps(words, mode) {
     const first = [], rest = [];
     const rot = ['listen', 'type', 'reverse'];
     words.forEach((w, n) => {
-      first.push({ t: 'meaning', w });
-      const second = can('cloze', w) ? 'cloze' : 'reverse';
-      rest.push({ t: second, w });
-      const extra = rot.map((_, k) => rot[(n + k) % rot.length]).find(k => can(k, w) && k !== second);
-      if (extra) rest.push({ t: extra, w });
+      // preferred order: meaning, then cloze (or reverse), then a rotating extra; skip disabled kinds
+      const order = ['meaning', can('cloze', w) ? 'cloze' : 'reverse', ...rot.map((_, k) => rot[(n + k) % rot.length]), 'cloze', 'reverse'];
+      const kinds = [...new Set(order)].filter(k => can(k, w)).slice(0, 3);
+      if (kinds[0]) first.push({ t: kinds[0], w });
+      kinds.slice(1).forEach(t => rest.push({ t, w }));
     });
     steps.push(...spread(shuffle(first)), ...spread(shuffle(rest)));
-    if (words.length >= 3) steps.push({ t: 'match', words });
+    if (words.length >= 3 && kindOn('match')) steps.push({ t: 'match', words });
     steps.push(...produceSteps(words));
   } else if (mode === 'review') {
     const kinds = ['meaning', 'reverse', 'cloze', 'listen', 'type'];
     const ds = [];
     words.forEach(w => shuffle(kinds.filter(k => can(k, w))).slice(0, 2).forEach(t => ds.push({ t, w })));
     steps.push(...spread(shuffle(ds)));
-    if (words.length >= 3) steps.push({ t: 'match', words: shuffle(words).slice(0, 5) });
+    if (words.length >= 3 && kindOn('match')) steps.push({ t: 'match', words: shuffle(words).slice(0, 5) });
   } else if (mode === 'quiz') {
-    words.forEach(w => steps.push({ t: pick(['meaning', 'reverse', 'cloze', 'listen', 'type'].filter(k => can(k, w))), w }));
+    words.forEach(w => { const ks = ['meaning', 'reverse', 'cloze', 'listen', 'type'].filter(k => can(k, w)); if (ks.length) steps.push({ t: pick(ks), w }); });
   } else if (mode === 'listen' || mode === 'type') {
     words.forEach(w => steps.push({ t: mode, w }));
   } else if (mode === 'match') {
