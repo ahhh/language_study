@@ -1,0 +1,239 @@
+{
+ "id": "fr-fantasy-anime",
+ "language": "fr",
+ "category": "Anime & Fantasy",
+ "title": "Fantasy & Anime Battles",
+ "description": "Swords, magic and battle cries: the words of fantasy stories and dubbed anime.",
+ "words": [
+  {
+   "word": "épée",
+   "meaning": "sword",
+   "pos": "noun · f",
+   "level": 1,
+   "sentence": "Il a levé son [épée].",
+   "translation": "He raised his sword.",
+   "tip": "l'épée. é often replaces a lost s: espée → épée (cf. 'spade')."
+  },
+  {
+   "word": "bouclier",
+   "meaning": "shield",
+   "pos": "noun · m",
+   "level": 2,
+   "sentence": "Lève ton [bouclier] !",
+   "translation": "Raise your shield!",
+   "tip": "le bouclier. A boucle (buckle/boss) was the shield's center."
+  },
+  {
+   "word": "magie",
+   "meaning": "magic",
+   "pos": "noun · f",
+   "level": 1,
+   "sentence": "Elle maîtrise la [magie] noire.",
+   "translation": "She masters black magic.",
+   "tip": "la magie."
+  },
+  {
+   "word": "sorcier",
+   "meaning": "sorcerer, wizard",
+   "pos": "noun · m",
+   "level": 2,
+   "sentence": "Le [sorcier] prépare un sort.",
+   "translation": "The sorcerer prepares a spell.",
+   "tip": "Feminine: la sorcière (witch). Shares a root with sort (spell)."
+  },
+  {
+   "word": "chevalier",
+   "meaning": "knight",
+   "pos": "noun · m",
+   "level": 2,
+   "sentence": "Le [chevalier] protège la princesse.",
+   "translation": "The knight protects the princess.",
+   "tip": "le chevalier. cheval (horse): a horseman. 'Chivalry'."
+  },
+  {
+   "word": "dragon",
+   "meaning": "dragon",
+   "pos": "noun · m",
+   "level": 1,
+   "sentence": "Le [dragon] crache du feu.",
+   "translation": "The dragon breathes fire.",
+   "tip": "le dragon."
+  },
+  {
+   "word": "ange",
+   "meaning": "angel",
+   "pos": "noun · m",
+   "level": 1,
+   "sentence": "Un [ange] descend du ciel.",
+   "translation": "An angel descends from the sky.",
+   "tip": "un ange (m.), even for female angels."
+  },
+  {
+   "word": "démon",
+   "meaning": "demon",
+   "pos": "noun · m",
+   "level": 2,
+   "sentence": "Il a signé un pacte avec un [démon].",
+   "translation": "He signed a pact with a demon."
+  },
+  {
+   "word": "combat",
+   "meaning": "fight, combat",
+   "pos": "noun · m",
+   "level": 1,
+   "sentence": "Le [combat] commence !",
+   "translation": "The fight begins!"
+  },
+  {
+   "word": "puissance",
+   "meaning": "power, might",
+   "pos": "noun · f",
+   "level": 2,
+   "sentence": "Cette [puissance] est incroyable.",
+   "translation": "This power is incredible.",
+   "tip": "la puissance. Shares a root with pouvoir and 'potent'."
+  },
+  {
+   "word": "héros",
+   "meaning": "hero",
+   "pos": "noun · m",
+   "level": 1,
+   "sentence": "Le [héros] ne recule jamais.",
+   "translation": "The hero never backs down.",
+   "tip": "The h is 'aspirated': le héros, not l'héros."
+  },
+  {
+   "word": "ombre",
+   "meaning": "shadow",
+   "pos": "noun · f",
+   "level": 2,
+   "sentence": "Une [ombre] bouge dans la nuit.",
+   "translation": "A shadow moves in the night.",
+   "tip": "l'ombre. 'Umbrella' gives shade."
+  },
+  {
+   "word": "lumière",
+   "meaning": "light",
+   "pos": "noun · f",
+   "level": 1,
+   "sentence": "La [lumière] chasse les ténèbres.",
+   "translation": "Light drives out the darkness.",
+   "tip": "la lumière. 'Luminous'."
+  },
+  {
+   "word": "ténèbres",
+   "meaning": "darkness",
+   "pos": "noun · f pl",
+   "level": 3,
+   "sentence": "Les [ténèbres] s'étendent sur le monde.",
+   "translation": "Darkness spreads over the world.",
+   "tip": "Always plural: les ténèbres. 'Tenebrous'."
+  },
+  {
+   "word": "feu",
+   "meaning": "fire",
+   "pos": "noun · m",
+   "level": 1,
+   "sentence": "Au [feu] !",
+   "translation": "Fire!",
+   "tip": "le feu. 'Feu d'artifice' = fireworks."
+  },
+  {
+   "word": "glace",
+   "meaning": "ice",
+   "pos": "noun · f",
+   "level": 1,
+   "sentence": "Un mur de [glace] apparaît.",
+   "translation": "A wall of ice appears.",
+   "tip": "la glace. 'Glacier'. Also mirror and ice cream."
+  },
+  {
+   "word": "foudre",
+   "meaning": "lightning",
+   "pos": "noun · f",
+   "level": 2,
+   "sentence": "La [foudre] frappe la tour.",
+   "translation": "Lightning strikes the tower.",
+   "tip": "la foudre. 'Coup de foudre' = love at first sight."
+  },
+  {
+   "word": "monde",
+   "meaning": "world",
+   "pos": "noun · m",
+   "level": 1,
+   "sentence": "Je vais sauver le [monde].",
+   "translation": "I'm going to save the world.",
+   "tip": "le monde. 'Mundane'. Tout le monde = everyone."
+  },
+  {
+   "word": "destin",
+   "meaning": "destiny, fate",
+   "pos": "noun · m",
+   "level": 2,
+   "sentence": "C'est mon [destin].",
+   "translation": "It's my destiny."
+  },
+  {
+   "word": "sceau",
+   "meaning": "seal",
+   "pos": "noun · m",
+   "level": 3,
+   "sentence": "Le [sceau] est brisé !",
+   "translation": "The seal is broken!",
+   "tip": "le sceau. Sounds like 'so'. Same root as 'signet'."
+  },
+  {
+   "word": "invoquer",
+   "meaning": "to summon",
+   "pos": "verb",
+   "level": 2,
+   "sentence": "J'[invoque] un dragon !",
+   "translation": "I summon a dragon!",
+   "tip": "'Invoke'."
+  },
+  {
+   "word": "vaincre",
+   "meaning": "to defeat",
+   "pos": "verb",
+   "level": 3,
+   "sentence": "Je vais te [vaincre] !",
+   "translation": "I'm going to defeat you!",
+   "tip": "'Invincible' = in + vinc (defeat)."
+  },
+  {
+   "word": "protéger",
+   "meaning": "to protect",
+   "pos": "verb",
+   "level": 1,
+   "sentence": "Je vais te [protéger].",
+   "translation": "I will protect you."
+  },
+  {
+   "word": "se battre",
+   "meaning": "to fight",
+   "pos": "verb",
+   "level": 2,
+   "sentence": "Je vais [me battre] jusqu'au bout.",
+   "translation": "I'll fight to the very end.",
+   "tip": "Reflexive: je me bats. 'Battle'."
+  },
+  {
+   "word": "jamais",
+   "meaning": "never",
+   "pos": "adverb",
+   "level": 1,
+   "sentence": "Je n'abandonnerai [jamais] !",
+   "translation": "I'll never give up!",
+   "tip": "ne … jamais wraps the verb."
+  },
+  {
+   "word": "abandonner",
+   "meaning": "to give up",
+   "pos": "verb",
+   "level": 2,
+   "sentence": "N'[abandonne] pas !",
+   "translation": "Don't give up!",
+   "tip": "'Abandon'."
+  }
+ ]
+}

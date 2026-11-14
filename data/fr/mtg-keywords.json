@@ -1,0 +1,204 @@
+{
+ "id": "fr-mtg-keywords",
+ "language": "fr",
+ "category": "Magic: The Gathering",
+ "title": "MTG: Keywords",
+ "description": "Evergreen and common keyword abilities as printed on French cards.",
+ "words": [
+  {
+   "word": "vol",
+   "meaning": "flying",
+   "pos": "noun · m",
+   "level": 1,
+   "sentence": "Cette créature a le [vol].",
+   "translation": "This creature has flying.",
+   "tip": "le vol. voler = to fly (also: to steal!)."
+  },
+  {
+   "word": "portée",
+   "meaning": "reach",
+   "pos": "noun · f",
+   "level": 2,
+   "sentence": "Une araignée avec la [portée] peut bloquer les créatures volantes.",
+   "translation": "A spider with reach can block flyers.",
+   "tip": "la portée = range. 'Within reach' = à portée."
+  },
+  {
+   "word": "piétinement",
+   "meaning": "trample",
+   "pos": "noun · m",
+   "level": 2,
+   "sentence": "Le [piétinement] inflige les blessures en excès au joueur.",
+   "translation": "Trample deals excess damage to the player.",
+   "tip": "pied (foot): stomping with feet."
+  },
+  {
+   "word": "célérité",
+   "meaning": "haste",
+   "pos": "noun · f",
+   "level": 2,
+   "sentence": "Avec la [célérité], elle peut attaquer tout de suite.",
+   "translation": "With haste, it can attack right away.",
+   "tip": "'Celerity' = swiftness; 'accelerate'."
+  },
+  {
+   "word": "vigilance",
+   "meaning": "vigilance",
+   "pos": "noun · f",
+   "level": 1,
+   "sentence": "La [vigilance] lui permet d'attaquer sans s'engager.",
+   "translation": "Vigilance lets it attack without tapping.",
+   "tip": "Same word as English."
+  },
+  {
+   "word": "initiative",
+   "meaning": "first strike",
+   "pos": "noun · f",
+   "level": 2,
+   "sentence": "Une créature avec l'[initiative] frappe en premier.",
+   "translation": "A creature with first strike hits first.",
+   "tip": "Taking the initiative = striking first."
+  },
+  {
+   "word": "double initiative",
+   "meaning": "double strike",
+   "pos": "noun · f",
+   "level": 3,
+   "sentence": "La [double initiative] inflige des blessures deux fois.",
+   "translation": "Double strike deals damage twice."
+  },
+  {
+   "word": "contact mortel",
+   "meaning": "deathtouch",
+   "pos": "noun · m",
+   "level": 2,
+   "sentence": "Un seul point de blessure suffit avec le [contact mortel].",
+   "translation": "One damage is enough with deathtouch.",
+   "tip": "contact + mortel (deadly): a deadly touch."
+  },
+  {
+   "word": "lien de vie",
+   "meaning": "lifelink",
+   "pos": "noun · m",
+   "level": 2,
+   "sentence": "Grâce au [lien de vie], vous gagnez autant de points de vie.",
+   "translation": "Thanks to lifelink, you gain that much life.",
+   "tip": "lien (link) + vie (life)."
+  },
+  {
+   "word": "défenseur",
+   "meaning": "defender",
+   "pos": "noun · m",
+   "level": 2,
+   "sentence": "Un mur avec [défenseur] ne peut pas attaquer.",
+   "translation": "A wall with defender can't attack."
+  },
+  {
+   "word": "menace",
+   "meaning": "menace",
+   "pos": "noun · f",
+   "level": 2,
+   "sentence": "Une créature avec la [menace] doit être bloquée par au moins deux créatures.",
+   "translation": "A creature with menace must be blocked by two or more creatures.",
+   "tip": "Same word as English."
+  },
+  {
+   "word": "défense talismanique",
+   "meaning": "hexproof",
+   "pos": "noun · f",
+   "level": 3,
+   "sentence": "Elle a la [défense talismanique] : vos adversaires ne peuvent pas la cibler.",
+   "translation": "It has hexproof: your opponents can't target it.",
+   "tip": "A talisman's defense against spells."
+  },
+  {
+   "word": "linceul",
+   "meaning": "shroud",
+   "pos": "noun · m",
+   "level": 3,
+   "sentence": "Une créature avec le [linceul] ne peut pas être ciblée.",
+   "translation": "A creature with shroud can't be targeted.",
+   "tip": "le linceul = burial shroud. Same image as English."
+  },
+  {
+   "word": "indestructible",
+   "meaning": "indestructible",
+   "pos": "adjective",
+   "level": 1,
+   "sentence": "Cette créature est [indestructible].",
+   "translation": "This creature is indestructible.",
+   "tip": "Same as English."
+  },
+  {
+   "word": "protection",
+   "meaning": "protection",
+   "pos": "noun · f",
+   "level": 1,
+   "sentence": "Elle a la [protection] contre le rouge.",
+   "translation": "It has protection from red.",
+   "tip": "protection contre = protection from."
+  },
+  {
+   "word": "flash",
+   "meaning": "flash",
+   "pos": "noun · m",
+   "level": 1,
+   "sentence": "Avec le [flash], lancez-la comme un éphémère.",
+   "translation": "With flash, cast it like an instant.",
+   "tip": "Kept in English."
+  },
+  {
+   "word": "prouesse",
+   "meaning": "prowess",
+   "pos": "noun · f",
+   "level": 2,
+   "sentence": "Avec la [prouesse], elle gagne +1/+1 à chaque sort non-créature.",
+   "translation": "With prowess, it gets +1/+1 for each noncreature spell.",
+   "tip": "'Prowess'."
+  },
+  {
+   "word": "regard",
+   "meaning": "scry",
+   "pos": "noun · m",
+   "level": 2,
+   "sentence": "[Regard] 2.",
+   "translation": "Scry 2.",
+   "tip": "le regard = a look, a gaze. Take a look at the top cards."
+  },
+  {
+   "word": "recyclage",
+   "meaning": "cycling",
+   "pos": "noun · m",
+   "level": 3,
+   "sentence": "[Recyclage] 2 mana : défaussez cette carte, piochez une carte.",
+   "translation": "Cycling 2 mana: discard this card, draw a card.",
+   "tip": "Recycle a dead card into a new one."
+  },
+  {
+   "word": "équiper",
+   "meaning": "equip",
+   "pos": "verb",
+   "level": 2,
+   "sentence": "[Équiper] : 1 mana.",
+   "translation": "Equip: 1 mana."
+  },
+  {
+   "word": "convocation",
+   "meaning": "convoke",
+   "pos": "noun · f",
+   "level": 3,
+   "sentence": "Grâce à la [convocation], vos créatures aident à payer.",
+   "translation": "Thanks to convoke, your creatures help pay.",
+   "tip": "'Convocation' = calling people together."
+  },
+  {
+   "word": "rappel",
+   "meaning": "kicker; reminder",
+   "pos": "noun · m",
+   "level": 3,
+   "sentence": "Si le coût de [rappel] a été payé, piochez une carte.",
+   "translation": "If it was kicked, draw a card.",
+   "tip": "le rappel = recall/reminder. Verify against your printing: older cards used « kicker »."
+  }
+ ]
+}

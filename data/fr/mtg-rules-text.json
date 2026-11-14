@@ -1,0 +1,185 @@
+{
+ "id": "fr-mtg-rules-text",
+ "language": "fr",
+ "category": "Magic: The Gathering",
+ "title": "MTG: Rules-Text Grammar",
+ "description": "The glue of French card text: whenever, as long as, instead, until end of turn, target…",
+ "words": [
+  {
+   "word": "ciblé",
+   "meaning": "target (adj., after the noun)",
+   "pos": "adjective",
+   "level": 1,
+   "sentence": "Détruisez la créature [ciblée].",
+   "translation": "Destroy target creature.",
+   "tip": "Agrees with the noun: le sort ciblé, la créature ciblée."
+  },
+  {
+   "word": "quand",
+   "meaning": "when",
+   "pos": "conjunction",
+   "level": 1,
+   "sentence": "[Quand] cette créature meurt, piochez une carte.",
+   "translation": "When this creature dies, draw a card.",
+   "tip": "One-time trigger. Compare chaque fois que."
+  },
+  {
+   "word": "chaque fois que",
+   "meaning": "whenever",
+   "pos": "conjunction",
+   "level": 2,
+   "sentence": "[Chaque fois que] vous lancez un sort, piochez une carte.",
+   "translation": "Whenever you cast a spell, draw a card.",
+   "tip": "chaque (each) + fois (time) + que."
+  },
+  {
+   "word": "tant que",
+   "meaning": "as long as",
+   "pos": "conjunction",
+   "level": 2,
+   "sentence": "[Tant que] vous contrôlez un enchantement, elle a le vol.",
+   "translation": "As long as you control an enchantment, it has flying.",
+   "tip": "tant = so much/so long."
+  },
+  {
+   "word": "à la place",
+   "meaning": "instead",
+   "pos": "phrase",
+   "level": 2,
+   "sentence": "Si elle devait mourir, exilez-la [à la place].",
+   "translation": "If it would die, exile it instead.",
+   "tip": "Literally 'in the place'."
+  },
+  {
+   "word": "jusqu'à la fin du tour",
+   "meaning": "until end of turn",
+   "pos": "phrase",
+   "level": 1,
+   "sentence": "Elle gagne +2/+0 [jusqu'à la fin du tour].",
+   "translation": "It gets +2/+0 until end of turn.",
+   "tip": "jusqu'à = until/up to."
+  },
+  {
+   "word": "jusqu'à",
+   "meaning": "up to",
+   "pos": "preposition",
+   "level": 2,
+   "sentence": "Ciblez [jusqu'à] deux créatures.",
+   "translation": "Choose up to two target creatures.",
+   "tip": "Also 'until'."
+  },
+  {
+   "word": "vous pouvez",
+   "meaning": "you may",
+   "pos": "phrase",
+   "level": 1,
+   "sentence": "[Vous pouvez] piocher une carte.",
+   "translation": "You may draw a card.",
+   "tip": "pouvoir = can/may."
+  },
+  {
+   "word": "si vous faites ainsi",
+   "meaning": "if you do",
+   "pos": "phrase",
+   "level": 3,
+   "sentence": "Vous pouvez vous défausser d'une carte. [Si vous faites ainsi], piochez une carte.",
+   "translation": "You may discard a card. If you do, draw a card.",
+   "tip": "Literally 'if you do thus'."
+  },
+  {
+   "word": "si possible",
+   "meaning": "if able",
+   "pos": "phrase",
+   "level": 2,
+   "sentence": "Elle attaque à chaque combat [si possible].",
+   "translation": "It attacks each combat if able."
+  },
+  {
+   "word": "chaque",
+   "meaning": "each",
+   "pos": "adjective",
+   "level": 1,
+   "sentence": "[Chaque] joueur pioche une carte.",
+   "translation": "Each player draws a card.",
+   "tip": "Always singular after it."
+  },
+  {
+   "word": "tous",
+   "meaning": "all (m. pl.)",
+   "pos": "adjective",
+   "level": 1,
+   "sentence": "Détruisez [tous] les artefacts.",
+   "translation": "Destroy all artifacts.",
+   "tip": "Feminine: toutes (toutes les créatures)."
+  },
+  {
+   "word": "autre",
+   "meaning": "other",
+   "pos": "adjective",
+   "level": 1,
+   "sentence": "Les [autres] créatures que vous contrôlez gagnent +1/+1.",
+   "translation": "Other creatures you control get +1/+1.",
+   "tip": "'Alternate'."
+  },
+  {
+   "word": "n'importe quelle cible",
+   "meaning": "any target",
+   "pos": "phrase",
+   "level": 2,
+   "sentence": "Elle inflige 3 blessures à [n'importe quelle cible].",
+   "translation": "It deals 3 damage to any target.",
+   "tip": "n'importe = no matter which."
+  },
+  {
+   "word": "au début de",
+   "meaning": "at the beginning of",
+   "pos": "phrase",
+   "level": 2,
+   "sentence": "[Au début de] votre étape de pioche, piochez une carte supplémentaire.",
+   "translation": "At the beginning of your draw step, draw an additional card."
+  },
+  {
+   "word": "à la fin de",
+   "meaning": "at the end of",
+   "pos": "phrase",
+   "level": 2,
+   "sentence": "[À la fin de] votre tour, sacrifiez-la.",
+   "translation": "At the end of your turn, sacrifice it."
+  },
+  {
+   "word": "sous votre contrôle",
+   "meaning": "under your control",
+   "pos": "phrase",
+   "level": 2,
+   "sentence": "Elle arrive sur le champ de bataille [sous votre contrôle].",
+   "translation": "It enters the battlefield under your control."
+  },
+  {
+   "word": "ne peut pas",
+   "meaning": "can't",
+   "pos": "phrase",
+   "level": 1,
+   "sentence": "Cette créature [ne peut pas] bloquer.",
+   "translation": "This creature can't block.",
+   "tip": "ne … pas wraps the verb."
+  },
+  {
+   "word": "seulement",
+   "meaning": "only",
+   "pos": "adverb",
+   "level": 2,
+   "sentence": "Activez [seulement] comme un rituel.",
+   "translation": "Activate only as a sorcery.",
+   "tip": "seul (alone) + -ment."
+  },
+  {
+   "word": "supplémentaire",
+   "meaning": "additional, extra",
+   "pos": "adjective",
+   "level": 2,
+   "sentence": "Jouez un terrain [supplémentaire] ce tour-ci.",
+   "translation": "Play an additional land this turn.",
+   "tip": "'Supplementary'."
+  }
+ ]
+}

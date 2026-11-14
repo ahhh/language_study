@@ -1,0 +1,49 @@
+{
+  "languages": [
+    {
+      "code": "ja",
+      "name": "Japanese",
+      "native": "日本語",
+      "tts": "ja-JP",
+      "romanize": "kana",
+      "sample": "こんにちは。呪文を唱える。",
+      "pools": [
+        "data/ja/core-everyday.json",
+        "data/ja/people-pronouns.json",
+        "data/ja/anime-phrases.json",
+        "data/ja/anime-battle-fantasy.json",
+        "data/ja/mtg-cards-zones.json",
+        "data/ja/mtg-actions.json",
+        "data/ja/mtg-keywords.json",
+        "data/ja/mtg-rules-text.json",
+        "data/ja/mtg-colors-creatures.json"
+      ]
+    },
+    {
+      "code": "fr",
+      "name": "French",
+      "native": "Français",
+      "tts": "fr-FR",
+      "sample": "Bonjour ! Je lance un sort.",
+      "pools": [
+        "data/fr/core-everyday.json",
+        "data/fr/people-feelings.json",
+        "data/fr/fantasy-anime.json",
+        "data/fr/mtg-cards-zones.json",
+        "data/fr/mtg-actions.json",
+        "data/fr/mtg-keywords.json",
+        "data/fr/mtg-rules-text.json"
+      ]
+    },
+    {
+      "code": "es",
+      "name": "Spanish",
+      "native": "Español",
+      "tts": "es-ES",
+      "sample": "Hola, lanzo un hechizo.",
+      "pools": [
+        "data/es/starter.json"
+      ]
+    }
+  ]
+}

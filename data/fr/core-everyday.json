@@ -1,0 +1,277 @@
+{
+ "id": "fr-core-everyday",
+ "language": "fr",
+ "category": "Everyday",
+ "title": "Core Everyday",
+ "description": "High-frequency words for daily life: greetings, time, food, places.",
+ "words": [
+  {
+   "word": "bonjour",
+   "meaning": "hello, good morning",
+   "pos": "interjection",
+   "level": 1,
+   "sentence": "[Bonjour], tout le monde !",
+   "translation": "Hello, everyone!",
+   "tip": "bon (good) + jour (day): 'good day'."
+  },
+  {
+   "word": "merci",
+   "meaning": "thank you",
+   "pos": "interjection",
+   "level": 1,
+   "sentence": "[Merci] pour ton aide.",
+   "translation": "Thanks for your help.",
+   "tip": "Same root as English 'mercy'."
+  },
+  {
+   "word": "s'il vous plaît",
+   "meaning": "please (formal)",
+   "pos": "phrase",
+   "level": 1,
+   "sentence": "Un café, [s'il vous plaît].",
+   "translation": "A coffee, please.",
+   "tip": "Literally 'if it pleases you'. Informal: s'il te plaît."
+  },
+  {
+   "word": "oui",
+   "meaning": "yes",
+   "pos": "adverb",
+   "level": 1,
+   "sentence": "[Oui], je comprends.",
+   "translation": "Yes, I understand."
+  },
+  {
+   "word": "non",
+   "meaning": "no",
+   "pos": "adverb",
+   "level": 1,
+   "sentence": "[Non], ce n'est pas ma carte.",
+   "translation": "No, it's not my card."
+  },
+  {
+   "word": "eau",
+   "meaning": "water",
+   "pos": "noun · f",
+   "level": 1,
+   "sentence": "Je voudrais un verre d'[eau].",
+   "translation": "I'd like a glass of water.",
+   "tip": "l'eau (f.). Think 'eau de toilette': scented water."
+  },
+  {
+   "word": "pain",
+   "meaning": "bread",
+   "pos": "noun · m",
+   "level": 1,
+   "sentence": "Le [pain] est encore chaud.",
+   "translation": "The bread is still warm.",
+   "tip": "le pain. Not English 'pain'! Think 'pantry' (bread room)."
+  },
+  {
+   "word": "maison",
+   "meaning": "house, home",
+   "pos": "noun · f",
+   "level": 1,
+   "sentence": "Je rentre à la [maison].",
+   "translation": "I'm going back home.",
+   "tip": "la maison. English 'mansion' comes from it."
+  },
+  {
+   "word": "ami",
+   "meaning": "friend (m.)",
+   "pos": "noun · m",
+   "level": 1,
+   "sentence": "C'est mon meilleur [ami].",
+   "translation": "He's my best friend.",
+   "tip": "un ami / une amie. Think 'amicable'."
+  },
+  {
+   "word": "jour",
+   "meaning": "day",
+   "pos": "noun · m",
+   "level": 1,
+   "sentence": "Chaque [jour], j'apprends un mot.",
+   "translation": "Every day, I learn a word.",
+   "tip": "le jour. 'Journal' = a daily record."
+  },
+  {
+   "word": "nuit",
+   "meaning": "night",
+   "pos": "noun · f",
+   "level": 1,
+   "sentence": "Bonne [nuit] !",
+   "translation": "Good night!",
+   "tip": "la nuit. Sounds like 'n-wee'. Nocturnal shares the root."
+  },
+  {
+   "word": "temps",
+   "meaning": "time; weather",
+   "pos": "noun · m",
+   "level": 2,
+   "sentence": "Je n'ai pas le [temps].",
+   "translation": "I don't have time.",
+   "tip": "le temps. 'Tempo' and 'temporary' share it. Quel temps fait-il ? = What's the weather?"
+  },
+  {
+   "word": "aujourd'hui",
+   "meaning": "today",
+   "pos": "adverb",
+   "level": 2,
+   "sentence": "[Aujourd'hui], on joue à Magic.",
+   "translation": "Today, we're playing Magic.",
+   "tip": "au jour d'hui: 'on the day of today'."
+  },
+  {
+   "word": "demain",
+   "meaning": "tomorrow",
+   "pos": "adverb",
+   "level": 1,
+   "sentence": "À [demain] !",
+   "translation": "See you tomorrow!",
+   "tip": "de + main (morning): from the morning (to come)."
+  },
+  {
+   "word": "manger",
+   "meaning": "to eat",
+   "pos": "verb",
+   "level": 1,
+   "sentence": "On va [manger] ensemble ?",
+   "translation": "Shall we eat together?",
+   "tip": "A 'manger' (manger) is where animals eat."
+  },
+  {
+   "word": "boire",
+   "meaning": "to drink",
+   "pos": "verb",
+   "level": 1,
+   "sentence": "Je veux [boire] quelque chose.",
+   "translation": "I want to drink something.",
+   "tip": "Think 'beverage' (same root via Latin bibere)."
+  },
+  {
+   "word": "aller",
+   "meaning": "to go",
+   "pos": "verb",
+   "level": 1,
+   "sentence": "Je [vais] au magasin.",
+   "translation": "I'm going to the store.",
+   "tip": "Irregular: je vais, tu vas, il va, nous allons."
+  },
+  {
+   "word": "faire",
+   "meaning": "to do, to make",
+   "pos": "verb",
+   "level": 1,
+   "sentence": "Qu'est-ce que tu [fais] ?",
+   "translation": "What are you doing?",
+   "tip": "je fais, tu fais, il fait. 'Fait accompli' = a done deal."
+  },
+  {
+   "word": "voir",
+   "meaning": "to see",
+   "pos": "verb",
+   "level": 1,
+   "sentence": "Je ne [vois] rien.",
+   "translation": "I can't see anything.",
+   "tip": "'Voyeur', 'vision', 'review' (re-voir)."
+  },
+  {
+   "word": "savoir",
+   "meaning": "to know (a fact)",
+   "pos": "verb",
+   "level": 2,
+   "sentence": "Je ne [sais] pas.",
+   "translation": "I don't know.",
+   "tip": "'Savvy' and 'savoir-faire' come from it."
+  },
+  {
+   "word": "vouloir",
+   "meaning": "to want",
+   "pos": "verb",
+   "level": 2,
+   "sentence": "Tu [veux] jouer ?",
+   "translation": "Do you want to play?",
+   "tip": "je veux, tu veux. 'Volition' shares the root."
+  },
+  {
+   "word": "pouvoir",
+   "meaning": "to be able to, can; power",
+   "pos": "verb",
+   "level": 2,
+   "sentence": "Je ne [peux] pas venir.",
+   "translation": "I can't come.",
+   "tip": "As a noun, le pouvoir = power."
+  },
+  {
+   "word": "grand",
+   "meaning": "big, tall",
+   "pos": "adjective",
+   "level": 1,
+   "sentence": "Le dragon est très [grand].",
+   "translation": "The dragon is very big.",
+   "tip": "'Grand' in English too. Feminine: grande."
+  },
+  {
+   "word": "petit",
+   "meaning": "small",
+   "pos": "adjective",
+   "level": 1,
+   "sentence": "J'ai un [petit] chat.",
+   "translation": "I have a small cat.",
+   "tip": "'Petty' comes from it. Feminine: petite."
+  },
+  {
+   "word": "nouveau",
+   "meaning": "new",
+   "pos": "adjective",
+   "level": 2,
+   "sentence": "C'est un [nouveau] jeu.",
+   "translation": "It's a new game.",
+   "tip": "'Nouveau riche', 'novel'. Feminine: nouvelle."
+  },
+  {
+   "word": "toujours",
+   "meaning": "always; still",
+   "pos": "adverb",
+   "level": 2,
+   "sentence": "Il est [toujours] en retard.",
+   "translation": "He's always late.",
+   "tip": "tous les jours = all the days: always."
+  },
+  {
+   "word": "beaucoup",
+   "meaning": "a lot, very much",
+   "pos": "adverb",
+   "level": 1,
+   "sentence": "Merci [beaucoup] !",
+   "translation": "Thank you very much!",
+   "tip": "beau (fine) + coup (blow): a fine amount."
+  },
+  {
+   "word": "parce que",
+   "meaning": "because",
+   "pos": "conjunction",
+   "level": 2,
+   "sentence": "Je reste [parce que] il pleut.",
+   "translation": "I'm staying because it's raining.",
+   "tip": "par ce que = 'by that which'."
+  },
+  {
+   "word": "quelque chose",
+   "meaning": "something",
+   "pos": "pronoun",
+   "level": 2,
+   "sentence": "Tu as [quelque chose] à dire ?",
+   "translation": "Do you have something to say?",
+   "tip": "quelque (some) + chose (thing)."
+  },
+  {
+   "word": "vraiment",
+   "meaning": "really, truly",
+   "pos": "adverb",
+   "level": 2,
+   "sentence": "C'est [vraiment] bien.",
+   "translation": "It's really good.",
+   "tip": "vrai (true) + -ment (= English -ly)."
+  }
+ ]
+}

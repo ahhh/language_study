@@ -1,0 +1,227 @@
+{
+ "id": "fr-mtg-actions",
+ "language": "fr",
+ "category": "Magic: The Gathering",
+ "title": "MTG: Actions",
+ "description": "The verbs on French cards. Card text uses the vous-imperative: Piochez, Détruisez, Exilez…",
+ "words": [
+  {
+   "word": "piocher",
+   "meaning": "to draw (a card)",
+   "pos": "verb",
+   "level": 1,
+   "sentence": "[Piochez] deux cartes.",
+   "translation": "Draw two cards.",
+   "tip": "Imperative: piochez. A pioche is a pickaxe: dig a card out of the deck."
+  },
+  {
+   "word": "défausser",
+   "meaning": "to discard",
+   "pos": "verb",
+   "level": 2,
+   "sentence": "[Défaussez]-vous d'une carte.",
+   "translation": "Discard a card.",
+   "tip": "dé (away) + fausse (false): throw away the wrong card. Reflexive: se défausser de."
+  },
+  {
+   "word": "détruire",
+   "meaning": "to destroy",
+   "pos": "verb",
+   "level": 1,
+   "sentence": "[Détruisez] toutes les créatures.",
+   "translation": "Destroy all creatures.",
+   "tip": "'Destruction'. Imperative: détruisez."
+  },
+  {
+   "word": "exiler",
+   "meaning": "to exile",
+   "pos": "verb",
+   "level": 1,
+   "sentence": "[Exilez] la créature ciblée.",
+   "translation": "Exile target creature."
+  },
+  {
+   "word": "sacrifier",
+   "meaning": "to sacrifice",
+   "pos": "verb",
+   "level": 1,
+   "sentence": "[Sacrifiez] une créature.",
+   "translation": "Sacrifice a creature."
+  },
+  {
+   "word": "lancer",
+   "meaning": "to cast (a spell); to throw",
+   "pos": "verb",
+   "level": 1,
+   "sentence": "Chaque fois que vous [lancez] un sort, piochez une carte.",
+   "translation": "Whenever you cast a spell, draw a card.",
+   "tip": "'Lance' (a thrown spear). You throw spells."
+  },
+  {
+   "word": "contrecarrer",
+   "meaning": "to counter (a spell)",
+   "pos": "verb",
+   "level": 3,
+   "sentence": "[Contrecarrez] le sort ciblé.",
+   "translation": "Counter target spell.",
+   "tip": "contre (against) + carrer (square up): square off against it."
+  },
+  {
+   "word": "engager",
+   "meaning": "to tap",
+   "pos": "verb",
+   "level": 2,
+   "sentence": "[Engagez] la créature ciblée.",
+   "translation": "Tap target creature.",
+   "tip": "Literally 'to engage': a tapped card is engaged (busy)."
+  },
+  {
+   "word": "dégager",
+   "meaning": "to untap",
+   "pos": "verb",
+   "level": 2,
+   "sentence": "[Dégagez] tous les terrains que vous contrôlez.",
+   "translation": "Untap all lands you control.",
+   "tip": "dé + gager: disengage."
+  },
+  {
+   "word": "renvoyer",
+   "meaning": "to return (bounce)",
+   "pos": "verb",
+   "level": 2,
+   "sentence": "[Renvoyez] le permanent ciblé dans la main de son propriétaire.",
+   "translation": "Return target permanent to its owner's hand.",
+   "tip": "re + envoyer (send): send back."
+  },
+  {
+   "word": "attaquer",
+   "meaning": "to attack",
+   "pos": "verb",
+   "level": 1,
+   "sentence": "Cette créature [attaque] à chaque combat si possible.",
+   "translation": "This creature attacks each combat if able."
+  },
+  {
+   "word": "bloquer",
+   "meaning": "to block",
+   "pos": "verb",
+   "level": 1,
+   "sentence": "Elle ne peut pas [bloquer].",
+   "translation": "It can't block."
+  },
+  {
+   "word": "infliger",
+   "meaning": "to deal (damage)",
+   "pos": "verb",
+   "level": 2,
+   "sentence": "Elle [inflige] 2 blessures à chaque adversaire.",
+   "translation": "It deals 2 damage to each opponent.",
+   "tip": "'Inflict'."
+  },
+  {
+   "word": "gagner",
+   "meaning": "to gain; to win; to get (+X/+X)",
+   "pos": "verb",
+   "level": 1,
+   "sentence": "Vous [gagnez] 3 points de vie.",
+   "translation": "You gain 3 life.",
+   "tip": "Also on boosts: « gagne +2/+2 jusqu'à la fin du tour »."
+  },
+  {
+   "word": "perdre",
+   "meaning": "to lose",
+   "pos": "verb",
+   "level": 1,
+   "sentence": "Chaque adversaire [perd] 1 point de vie.",
+   "translation": "Each opponent loses 1 life.",
+   "tip": "'Perdition'."
+  },
+  {
+   "word": "mettre",
+   "meaning": "to put",
+   "pos": "verb",
+   "level": 1,
+   "sentence": "[Mettez] un marqueur +1/+1 sur cette créature.",
+   "translation": "Put a +1/+1 counter on this creature.",
+   "tip": "Irregular: mettez, mis. 'Emit', 'submit'."
+  },
+  {
+   "word": "chercher",
+   "meaning": "to search",
+   "pos": "verb",
+   "level": 2,
+   "sentence": "[Cherchez] dans votre bibliothèque une carte de terrain de base.",
+   "translation": "Search your library for a basic land card.",
+   "tip": "'Search' and chercher share the Latin root circare."
+  },
+  {
+   "word": "mélanger",
+   "meaning": "to shuffle; to mix",
+   "pos": "verb",
+   "level": 2,
+   "sentence": "Puis [mélangez].",
+   "translation": "Then shuffle.",
+   "tip": "'Mélange' = a mixture."
+  },
+  {
+   "word": "révéler",
+   "meaning": "to reveal",
+   "pos": "verb",
+   "level": 2,
+   "sentence": "[Révélez] la première carte de votre bibliothèque.",
+   "translation": "Reveal the top card of your library."
+  },
+  {
+   "word": "choisir",
+   "meaning": "to choose",
+   "pos": "verb",
+   "level": 1,
+   "sentence": "[Choisissez] un adversaire.",
+   "translation": "Choose an opponent.",
+   "tip": "'Choice'. Imperative: choisissez."
+  },
+  {
+   "word": "créer",
+   "meaning": "to create",
+   "pos": "verb",
+   "level": 1,
+   "sentence": "[Créez] deux jetons de créature 1/1.",
+   "translation": "Create two 1/1 creature tokens."
+  },
+  {
+   "word": "contrôler",
+   "meaning": "to control",
+   "pos": "verb",
+   "level": 1,
+   "sentence": "Les créatures que vous [contrôlez] gagnent +1/+1.",
+   "translation": "Creatures you control get +1/+1."
+  },
+  {
+   "word": "arriver",
+   "meaning": "to arrive; to enter (the battlefield)",
+   "pos": "verb",
+   "level": 2,
+   "sentence": "Quand cette créature [arrive] sur le champ de bataille, piochez une carte.",
+   "translation": "When this creature enters the battlefield, draw a card.",
+   "tip": "'Arrive'."
+  },
+  {
+   "word": "mourir",
+   "meaning": "to die",
+   "pos": "verb",
+   "level": 2,
+   "sentence": "Quand cette créature [meurt], vous gagnez 2 points de vie.",
+   "translation": "When this creature dies, you gain 2 life.",
+   "tip": "Irregular: il meurt. 'Mortal', 'mortuary'."
+  },
+  {
+   "word": "meuler",
+   "meaning": "to mill",
+   "pos": "verb",
+   "level": 3,
+   "sentence": "Chaque adversaire [meule] trois cartes.",
+   "translation": "Each opponent mills three cards.",
+   "tip": "une meule = a millstone. Grind cards off the top."
+  }
+ ]
+}

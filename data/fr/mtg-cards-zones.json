@@ -1,0 +1,261 @@
+{
+ "id": "fr-mtg-cards-zones",
+ "language": "fr",
+ "category": "Magic: The Gathering",
+ "title": "MTG: Cards & Zones",
+ "description": "Card types, zones and the nouns of French Magic cards.",
+ "words": [
+  {
+   "word": "carte",
+   "meaning": "card",
+   "pos": "noun · f",
+   "level": 1,
+   "sentence": "Piochez une [carte].",
+   "translation": "Draw a card.",
+   "tip": "la carte. 'Cartography', 'cart(e) blanche'."
+  },
+  {
+   "word": "bibliothèque",
+   "meaning": "library (deck)",
+   "pos": "noun · f",
+   "level": 2,
+   "sentence": "Mélangez votre [bibliothèque].",
+   "translation": "Shuffle your library.",
+   "tip": "la bibliothèque. biblio (book) + thèque (case): bookcase."
+  },
+  {
+   "word": "main",
+   "meaning": "hand",
+   "pos": "noun · f",
+   "level": 1,
+   "sentence": "Renvoyez-la dans la [main] de son propriétaire.",
+   "translation": "Return it to its owner's hand.",
+   "tip": "la main. 'Manual' = done by hand."
+  },
+  {
+   "word": "cimetière",
+   "meaning": "graveyard",
+   "pos": "noun · m",
+   "level": 2,
+   "sentence": "Mettez-la dans votre [cimetière].",
+   "translation": "Put it into your graveyard.",
+   "tip": "le cimetière. 'Cemetery'."
+  },
+  {
+   "word": "champ de bataille",
+   "meaning": "battlefield",
+   "pos": "noun · m",
+   "level": 2,
+   "sentence": "Elle arrive sur le [champ de bataille].",
+   "translation": "It enters the battlefield.",
+   "tip": "champ (field) + bataille (battle)."
+  },
+  {
+   "word": "exil",
+   "meaning": "exile (zone)",
+   "pos": "noun · m",
+   "level": 2,
+   "sentence": "Elle reste en [exil].",
+   "translation": "It stays in exile.",
+   "tip": "l'exil. Verb: exiler."
+  },
+  {
+   "word": "pile",
+   "meaning": "stack",
+   "pos": "noun · f",
+   "level": 3,
+   "sentence": "Le sort est encore sur la [pile].",
+   "translation": "The spell is still on the stack.",
+   "tip": "la pile. A pile of spells waiting to resolve."
+  },
+  {
+   "word": "sort",
+   "meaning": "spell",
+   "pos": "noun · m",
+   "level": 1,
+   "sentence": "Lancez un [sort].",
+   "translation": "Cast a spell.",
+   "tip": "le sort. Also means 'fate': a spell decides your fate. Silent t."
+  },
+  {
+   "word": "éphémère",
+   "meaning": "instant",
+   "pos": "noun · m",
+   "level": 2,
+   "sentence": "Lancez cet [éphémère] pendant le tour adverse.",
+   "translation": "Cast this instant during the opponent's turn.",
+   "tip": "un éphémère. 'Ephemeral' = short-lived."
+  },
+  {
+   "word": "rituel",
+   "meaning": "sorcery",
+   "pos": "noun · m",
+   "level": 2,
+   "sentence": "Un [rituel] se lance seulement pendant votre tour.",
+   "translation": "A sorcery is cast only during your turn.",
+   "tip": "le rituel. Sorceries are 'rituals': they take time."
+  },
+  {
+   "word": "créature",
+   "meaning": "creature",
+   "pos": "noun · f",
+   "level": 1,
+   "sentence": "Détruisez la [créature] ciblée.",
+   "translation": "Destroy target creature.",
+   "tip": "la créature."
+  },
+  {
+   "word": "enchantement",
+   "meaning": "enchantment",
+   "pos": "noun · m",
+   "level": 2,
+   "sentence": "Exilez l'[enchantement] ciblé.",
+   "translation": "Exile target enchantment.",
+   "tip": "l'enchantement."
+  },
+  {
+   "word": "artefact",
+   "meaning": "artifact",
+   "pos": "noun · m",
+   "level": 2,
+   "sentence": "Détruisez l'[artefact] ciblé.",
+   "translation": "Destroy target artifact.",
+   "tip": "l'artefact. Note the French spelling: arte-fact."
+  },
+  {
+   "word": "terrain",
+   "meaning": "land",
+   "pos": "noun · m",
+   "level": 1,
+   "sentence": "Jouez un [terrain] par tour.",
+   "translation": "Play one land per turn.",
+   "tip": "le terrain. Same as English 'terrain'."
+  },
+  {
+   "word": "jeton",
+   "meaning": "token",
+   "pos": "noun · m",
+   "level": 2,
+   "sentence": "Créez un [jeton] de créature 1/1.",
+   "translation": "Create a 1/1 creature token.",
+   "tip": "le jeton. Also a game chip/coin."
+  },
+  {
+   "word": "coût",
+   "meaning": "cost",
+   "pos": "noun · m",
+   "level": 2,
+   "sentence": "Le [coût] de mana est de trois.",
+   "translation": "The mana cost is three.",
+   "tip": "le coût. Circumflex = lost s: 'coust' → cost."
+  },
+  {
+   "word": "capacité",
+   "meaning": "ability",
+   "pos": "noun · f",
+   "level": 2,
+   "sentence": "Cette [capacité] ne peut être activée qu'une fois par tour.",
+   "translation": "This ability can be activated only once each turn.",
+   "tip": "la capacité. 'Capacity' = what something can do."
+  },
+  {
+   "word": "force",
+   "meaning": "power",
+   "pos": "noun · f",
+   "level": 2,
+   "sentence": "Sa [force] est de 4.",
+   "translation": "Its power is 4.",
+   "tip": "la force. P/T is force/endurance."
+  },
+  {
+   "word": "endurance",
+   "meaning": "toughness",
+   "pos": "noun · f",
+   "level": 2,
+   "sentence": "Elle a 3 d'[endurance].",
+   "translation": "It has 3 toughness.",
+   "tip": "l'endurance. How much it can endure."
+  },
+  {
+   "word": "blessure",
+   "meaning": "damage (point of)",
+   "pos": "noun · f",
+   "level": 2,
+   "sentence": "Elle inflige 3 [blessures] à n'importe quelle cible.",
+   "translation": "It deals 3 damage to any target.",
+   "tip": "la blessure. Literally 'wound'; card text counts damage in blessures."
+  },
+  {
+   "word": "points de vie",
+   "meaning": "life (points)",
+   "pos": "noun · m pl",
+   "level": 1,
+   "sentence": "Vous gagnez 4 [points de vie].",
+   "translation": "You gain 4 life.",
+   "tip": "Literally 'points of life'."
+  },
+  {
+   "word": "adversaire",
+   "meaning": "opponent",
+   "pos": "noun · m",
+   "level": 1,
+   "sentence": "Chaque [adversaire] perd 2 points de vie.",
+   "translation": "Each opponent loses 2 life.",
+   "tip": "un/une adversaire. 'Adversary'."
+  },
+  {
+   "word": "joueur",
+   "meaning": "player",
+   "pos": "noun · m",
+   "level": 1,
+   "sentence": "Le [joueur] ciblé pioche deux cartes.",
+   "translation": "Target player draws two cards.",
+   "tip": "le joueur. jouer = to play."
+  },
+  {
+   "word": "propriétaire",
+   "meaning": "owner",
+   "pos": "noun · m",
+   "level": 2,
+   "sentence": "Renvoyez-la dans la main de son [propriétaire].",
+   "translation": "Return it to its owner's hand.",
+   "tip": "le propriétaire. 'Proprietor'."
+  },
+  {
+   "word": "tour",
+   "meaning": "turn",
+   "pos": "noun · m",
+   "level": 1,
+   "sentence": "À la fin du [tour], sacrifiez-la.",
+   "translation": "At the end of turn, sacrifice it.",
+   "tip": "le tour = turn; la tour = tower!"
+  },
+  {
+   "word": "étape",
+   "meaning": "step (of a turn)",
+   "pos": "noun · f",
+   "level": 3,
+   "sentence": "Au début de votre [étape] d'entretien, piochez une carte.",
+   "translation": "At the beginning of your upkeep, draw a card.",
+   "tip": "l'étape. 'Étape d'entretien' = upkeep (literally 'maintenance step')."
+  },
+  {
+   "word": "bloqueur",
+   "meaning": "blocker",
+   "pos": "noun · m",
+   "level": 2,
+   "sentence": "Elle ne peut pas être bloquée par plus d'un [bloqueur].",
+   "translation": "It can't be blocked by more than one creature.",
+   "tip": "le bloqueur."
+  },
+  {
+   "word": "marqueur",
+   "meaning": "counter (marker)",
+   "pos": "noun · m",
+   "level": 2,
+   "sentence": "Mettez un [marqueur] +1/+1 sur elle.",
+   "translation": "Put a +1/+1 counter on it.",
+   "tip": "le marqueur. Careful: to counter a spell is contrecarrer."
+  }
+ ]
+}

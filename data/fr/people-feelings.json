@@ -1,0 +1,225 @@
+{
+ "id": "fr-people-feelings",
+ "language": "fr",
+ "category": "Everyday",
+ "title": "People & Feelings",
+ "description": "Family, people, emotions and the words characters use to talk about them.",
+ "words": [
+  {
+   "word": "homme",
+   "meaning": "man",
+   "pos": "noun · m",
+   "level": 1,
+   "sentence": "Cet [homme] est un héros.",
+   "translation": "That man is a hero.",
+   "tip": "l'homme. The h is silent: 'om'. Think 'homo sapiens'."
+  },
+  {
+   "word": "femme",
+   "meaning": "woman; wife",
+   "pos": "noun · f",
+   "level": 1,
+   "sentence": "Cette [femme] est une sorcière.",
+   "translation": "That woman is a witch.",
+   "tip": "la femme. Pronounced 'fam'. 'Feminine'."
+  },
+  {
+   "word": "enfant",
+   "meaning": "child",
+   "pos": "noun · m",
+   "level": 1,
+   "sentence": "L'[enfant] joue dehors.",
+   "translation": "The child is playing outside.",
+   "tip": "un/une enfant. 'Infant'."
+  },
+  {
+   "word": "famille",
+   "meaning": "family",
+   "pos": "noun · f",
+   "level": 1,
+   "sentence": "Ma [famille] habite à Lyon.",
+   "translation": "My family lives in Lyon.",
+   "tip": "la famille. Double l sounds like 'y': fa-mee-y."
+  },
+  {
+   "word": "frère",
+   "meaning": "brother",
+   "pos": "noun · m",
+   "level": 1,
+   "sentence": "Mon grand [frère] m'aide toujours.",
+   "translation": "My big brother always helps me.",
+   "tip": "le frère. 'Fraternal', 'friar'."
+  },
+  {
+   "word": "sœur",
+   "meaning": "sister",
+   "pos": "noun · f",
+   "level": 1,
+   "sentence": "Ma petite [sœur] adore l'anime.",
+   "translation": "My little sister loves anime.",
+   "tip": "la sœur. Typing 'soeur' works. 'Sorority'."
+  },
+  {
+   "word": "maître",
+   "meaning": "master, teacher",
+   "pos": "noun · m",
+   "level": 2,
+   "sentence": "Mon [maître] m'a tout appris.",
+   "translation": "My master taught me everything.",
+   "tip": "le maître. The circumflex marks a lost s: 'maistre' → master. Also 'maître d''."
+  },
+  {
+   "word": "ennemi",
+   "meaning": "enemy",
+   "pos": "noun · m",
+   "level": 1,
+   "sentence": "Notre [ennemi] approche.",
+   "translation": "Our enemy is approaching.",
+   "tip": "un ennemi. en (not) + ami (friend) = not a friend!"
+  },
+  {
+   "word": "compagnon",
+   "meaning": "companion, comrade",
+   "pos": "noun · m",
+   "level": 2,
+   "sentence": "Je protégerai mes [compagnons].",
+   "translation": "I will protect my companions.",
+   "tip": "le compagnon. com (with) + pain (bread): one you share bread with."
+  },
+  {
+   "word": "heureux",
+   "meaning": "happy",
+   "pos": "adjective",
+   "level": 1,
+   "sentence": "Je suis très [heureux] aujourd'hui.",
+   "translation": "I'm very happy today.",
+   "tip": "Feminine: heureuse. heur (luck) + -eux: lucky."
+  },
+  {
+   "word": "triste",
+   "meaning": "sad",
+   "pos": "adjective",
+   "level": 1,
+   "sentence": "Pourquoi es-tu [triste] ?",
+   "translation": "Why are you sad?",
+   "tip": "'Tristesse' = sadness. Same in both genders."
+  },
+  {
+   "word": "peur",
+   "meaning": "fear",
+   "pos": "noun · f",
+   "level": 1,
+   "sentence": "J'ai [peur] du noir.",
+   "translation": "I'm afraid of the dark.",
+   "tip": "la peur. avoir peur = to be afraid. 'Pavor' → 'peur'."
+  },
+  {
+   "word": "colère",
+   "meaning": "anger",
+   "pos": "noun · f",
+   "level": 2,
+   "sentence": "Il est en [colère].",
+   "translation": "He is angry.",
+   "tip": "la colère. 'Choleric' = hot-tempered."
+  },
+  {
+   "word": "amour",
+   "meaning": "love",
+   "pos": "noun · m",
+   "level": 1,
+   "sentence": "L'[amour] est plus fort que tout.",
+   "translation": "Love is stronger than anything.",
+   "tip": "l'amour. 'Amorous'."
+  },
+  {
+   "word": "courage",
+   "meaning": "courage",
+   "pos": "noun · m",
+   "level": 1,
+   "sentence": "Du [courage] ! Tu peux le faire.",
+   "translation": "Be brave! You can do it.",
+   "tip": "le courage. From cœur (heart)."
+  },
+  {
+   "word": "rêve",
+   "meaning": "dream",
+   "pos": "noun · m",
+   "level": 2,
+   "sentence": "Mon [rêve] est de devenir le plus fort.",
+   "translation": "My dream is to become the strongest.",
+   "tip": "le rêve. The circumflex marks a lost s. 'Reverie'."
+  },
+  {
+   "word": "promesse",
+   "meaning": "promise",
+   "pos": "noun · f",
+   "level": 2,
+   "sentence": "Je tiendrai ma [promesse].",
+   "translation": "I'll keep my promise.",
+   "tip": "la promesse. tenir sa promesse = to keep one's promise."
+  },
+  {
+   "word": "seul",
+   "meaning": "alone; only",
+   "pos": "adjective",
+   "level": 2,
+   "sentence": "Je ne suis pas [seul].",
+   "translation": "I'm not alone.",
+   "tip": "Feminine: seule. 'Sole', 'solo'."
+  },
+  {
+   "word": "fort",
+   "meaning": "strong",
+   "pos": "adjective",
+   "level": 1,
+   "sentence": "Tu es plus [fort] que moi.",
+   "translation": "You're stronger than me.",
+   "tip": "Feminine: forte. 'Fortress', 'fortitude'."
+  },
+  {
+   "word": "faible",
+   "meaning": "weak",
+   "pos": "adjective",
+   "level": 2,
+   "sentence": "Je suis trop [faible].",
+   "translation": "I'm too weak.",
+   "tip": "'Feeble' comes from it."
+  },
+  {
+   "word": "aider",
+   "meaning": "to help",
+   "pos": "verb",
+   "level": 1,
+   "sentence": "Je vais t'[aider].",
+   "translation": "I'm going to help you.",
+   "tip": "'Aid'."
+  },
+  {
+   "word": "croire",
+   "meaning": "to believe",
+   "pos": "verb",
+   "level": 2,
+   "sentence": "Je [crois] en toi !",
+   "translation": "I believe in you!",
+   "tip": "je crois. 'Credo', 'credible'."
+  },
+  {
+   "word": "oublier",
+   "meaning": "to forget",
+   "pos": "verb",
+   "level": 2,
+   "sentence": "Je n'[oublierai] jamais.",
+   "translation": "I will never forget.",
+   "tip": "'Oblivion' shares the root."
+  },
+  {
+   "word": "attendre",
+   "meaning": "to wait (for)",
+   "pos": "verb",
+   "level": 2,
+   "sentence": "[Attends] ! Ne pars pas !",
+   "translation": "Wait! Don't leave!",
+   "tip": "Not 'attend'! Think: an attendant waits on you."
+  }
+ ]
+}
